@@ -13,6 +13,7 @@
   }
 }
 
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +36,170 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+ .recommended-container {
+  padding-top: 0px;
+ }
+
+#navIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.headerLinks {
+  margin-right: 45px;
+  font-family: CeraBold;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+
+.nav-link{
+  font-family: CeraBold;
+  list-style: none;
+}
+
+.nav-link-holiday {
+  background-color: white;
+  font-family: CeraBold;
+  padding: 8px 20px;
+  border-radius: 5px;
+  list-style: none;
+}
+
+.icons {
+  height: 20px;
+  padding-right: 55px;
+}
+
+.searchIcon {
+  height: 2.5rem;
+  margin-right: 20px;
+  filter: invert(100%);
+  padding-left: 550px;
+}
+
+#playZone {
+  padding: 5px 15px;
+  font-size: 9pt;
+  font-family: CeraBold;
+  background-color: rgb(171, 217, 255);
+  border: none;
+  box-shadow: rgba(48, 85, 181, 0.44) 0px 1px 4px 0px;
+  border-radius: 3px;
+}
+
+ #bannerCtr {
+  display: flex;
+  align-items: center;
+}
+
+#bannerRt {
+  display: flex;
+  right: 0%;
+} 
+
+.header {
+  background-color:#ffcf01;
+  width: 100%;
+}
+ 
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 0;
+}
+
+ .nav-links {
+  display: flex;
+  align-items: center;
+  height: 100%;
+ }
+ 
+ .nav-link {
+  list-style: none;
+  padding: 0 40px;
+ }
+ 
+ .nav-link a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+ }
+
+
+
+.logo {
+  padding-top: 10px;
+  padding-left: 20px;
+  margin-right: 5px;
+  width: 70px;
+  height: 50px;
+  background-size: cover;
+} 
+
+
+
+
+
+
+#banner {
+  background-color: rbg(255, 255, 255);
+  width: inherit;
+  display: flex;
+  grid-template-columns: auto auto auto;
+  align-items: stretch;
+  line-height: 0em;
+  justify-content: space-between;
+  position: relative;
+  font-size: 10pt;
+  padding: 8px 30px;
+}
+
+.thisweekrow{
+  display: flex;
+}
+
+.tower{
+  flex: 10%;
+  padding: 5px;
+}
+
+
+#Avbold{
+  font-weight: bold;
+  font-family: Cera Pro,sans-serif;
+}
+
+#watch{
+  font-family: Cera Pro,sans-serif;
+  font-weight: bold;
+}
+
+#makeh{
+  font-family: Cera Pro,sans-serif;
+  font-weight: bold;
+}
+
+.main-page{
+  font-family: Cera Pro,sans-serif;
+}
+
+.journey-container{
+  width: 100%;
+}
+
+
+#img{
+  max-width: 4px;
 }
