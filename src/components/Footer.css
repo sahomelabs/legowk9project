@@ -5,9 +5,6 @@
 }
 
 
-
-
-
 #footerlogo {
   padding-top: 20px;
   padding-left: 20px;
@@ -19,7 +16,6 @@
 .footer-color{
   background-color: #1f1d46;
   width: 100%;
-
 }
 
 #menu-below-footer-logo{
@@ -28,7 +24,6 @@
   width: 7px;
   height: 5px;
   padding: 7px;
-  list-style: none;
   text-decoration: none;
 }
 

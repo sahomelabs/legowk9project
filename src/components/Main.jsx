@@ -7,32 +7,33 @@ function Main() {
  return (
     <div className="main-page">
       <div class="journey-container">
-        <img src="https://www.lego.com/cdn/cs/set/assets/bltc911b88820a18211/21344-Exclusive-202311-PS-Hero-Standard-Large-r1.jpg?fit=crop&format=webply&quality=80&width=1600&height=500&dpr=1.5"/>
+        {/* <img src="https://www.lego.com/cdn/cs/set/assets/bltc911b88820a18211/21344-Exclusive-202311-PS-Hero-Standard-Large-r1.jpg?fit=crop&format=webply&quality=80&width=1600&height=500&dpr=1.5"
+        className="middelimg"/> */}
         <div class="bottom-right">Shop Now</div>
         <div class="bottom-left">Learn more</div>
       </div>
 
-      
-      <h4>This week's top picks</h4>
-      <div class="thisweekrow">
-        <div class="tower">
-          <img src="https://www.lego.com/cdn/cs/set/assets/bltd242a29e8881c557/76269-Page-202310-Block-Standard.jpg?fit=crop&format=webply&quality=80&width=635&height=440&dpr=1.5" alt="AvengerTower" />
-          <p id="Avbold">Avengers Tower</p>
-          <p>Recreate the most iconic building in the Avengers Universe.</p>
-          <button>Shop Now</button>
-        </div>
+      <div className="thisweekdeal">
+        <h4>This week's top picks</h4>
+          <div class="thisweekrow">
+           <div class="tower">
+              {/* <img src="https://www.lego.com/cdn/cs/set/assets/bltd242a29e8881c557/76269-Page-202310-Block-Standard.jpg?fit=crop&format=webply&quality=80&width=635&height=440&dpr=1.5" alt="AvengerTower" /> */}
+              <p id="Avbold">Avengers Tower</p>
+              <p>Recreate the most iconic building in the Avengers Universe.</p>
+              <button>Shop Now</button>
+          </div>
 
-        <div class="tower">   
-          <img src="https://www.lego.com/cdn/cs/set/assets/blt9e3c68fcb7fa10a3/Holiday23-GroupedAssets-202311-Block-Standard-10329.jpg?fit=crop&format=webply&quality=80&width=635&height=440&dpr=1.5" alt="" />
-            <p id="watch">Watch creativity grow </p>
-            <p>Give a gift from the LEGO® Botanical Collection.</p>
-        </div>
+          <div class="tower">   
+            {/* <img src="https://www.lego.com/cdn/cs/set/assets/blt9e3c68fcb7fa10a3/Holiday23-GroupedAssets-202311-Block-Standard-10329.jpg?fit=crop&format=webply&quality=80&width=635&height=440&dpr=1.5" alt="" /> */}
+              <p id="watch">Watch creativity grow </p>
+              <p>Give a gift from the LEGO® Botanical Collection.</p>
+          </div>
 
-        <div class="tower">
-          <img src="https://www.lego.com/cdn/cs/set/assets/blt3dd1bbaf9999eb1f/Holiday23-GroupedAssets-202311-Block-Standard-10326.jpg?fit=crop&format=webply&quality=80&width=635&height=440&dpr=1.5" alt="icon"/>
-          <p id="makeh">Make history for the holidays</p>
-          <p>New LEGO® Icons Natural History Museum joins the modular Buildings collection.</p>
-        </div>  
+          <div class="tower">
+            {/* <img src="https://www.lego.com/cdn/cs/set/assets/blt3dd1bbaf9999eb1f/Holiday23-GroupedAssets-202311-Block-Standard-10326.jpg?fit=crop&format=webply&quality=80&width=635&height=440&dpr=1.5" alt="icon"/> */}
+            <p id="makeh">Make history for the holidays</p>
+            <p>New LEGO® Icons Natural History Museum joins the modular Buildings collection.</p>
+          </div>  
       </div>
       
       <div className="recommended-container">
@@ -41,7 +42,7 @@ function Main() {
           {/* List your products here */}
         </div>
       </div>
-
+    </div>
       <div className="giftidea-container">
         <h2>Gift ideas for everyone on your list</h2>
         <div className="product-list">
